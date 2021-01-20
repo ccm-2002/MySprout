@@ -85,7 +85,9 @@ dependencies {
     //mmkv数据保存
     implementation 'com.tencent:mmkv-static:1.0.23'
 
-
+    //侧滑菜单 recyclerview 协调者布局
+    implementation 'com.android.support:design:30.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'   //加载图片Glid
 
 
 }
