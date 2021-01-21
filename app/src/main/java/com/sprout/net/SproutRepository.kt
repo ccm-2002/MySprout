@@ -1,8 +1,8 @@
-package com.shop.net
+package com.sprout.net
 
 import android.util.Log
-import com.shop.app.Constants
-import com.shop.utils.MyMmkv
+import com.sprout.app.Constants
+import com.sprout.utils.MyMmkv
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.Response
@@ -30,7 +30,7 @@ class SproutRepository {
             chain -> val request = chain.request()
                 .newBuilder()
                 .addHeader("charset","UTF-8")
-                .addHeader("token",MyMmkv.getString(Constants.token))
+                .addHeader("token", MyMmkv.getString(Constants.token))
                 .build()
 
             chain.proceed(request)

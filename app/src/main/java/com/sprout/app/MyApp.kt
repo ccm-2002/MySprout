@@ -1,8 +1,7 @@
-package com.baseclient.app
+package com.sprout.app
 
 import android.app.Application
-import android.content.Context
-import com.shop.utils.MyMmkv
+import com.sprout.utils.MyMmkv
 
 class MyApp:Application() {
 

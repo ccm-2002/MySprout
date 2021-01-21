@@ -1,4 +1,4 @@
-package com.shop.api
+package com.sprout.api
 
 import com.baseclient.model.BaseResp
 import com.shop.model.HomeData

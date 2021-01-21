@@ -1,6 +1,6 @@
-package com.shop.utils
+package com.sprout.utils
 
-import com.baseclient.app.MyApp
+import com.sprout.app.MyApp
 import com.tencent.mmkv.MMKV
 
 /**

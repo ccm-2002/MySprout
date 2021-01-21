@@ -5,9 +5,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
-import com.baseclient.app.MyApp.Companion.instance
-import com.shop.base.BaseActivity
-import com.shop.net.SproutRepository.Companion.instance
+import com.sprout.base.BaseActivity
 import com.sprout.databinding.ActivitySproutBinding
 import com.sprout.ui.discover.DiscoverFragment
 import com.sprout.ui.home.HomeFragment
@@ -63,7 +61,8 @@ class SproutActivity : BaseActivity<SproutViewModel, ActivitySproutBinding>
             R.id.layout_home ->{
                 mDataBinding.imgHome.setImageResource(R.mipmap.main_nav_home_is)
                 transaction.replace(R.id.fragments,homeFragment)
-                //transaction.commit()
+                //
+
             }
             R.id.layout_discover ->{
                 mDataBinding.imgDiscover.setImageResource(R.mipmap.main_nav_discover_is)

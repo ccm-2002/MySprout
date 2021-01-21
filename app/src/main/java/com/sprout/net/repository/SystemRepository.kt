@@ -1,7 +1,7 @@
-package com.shop.net.repository
+package com.sprout.net.repository
 
-import com.shop.api.ServiceApi
-import com.shop.net.SproutRepository
+import com.sprout.api.ServiceApi
+import com.sprout.net.SproutRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

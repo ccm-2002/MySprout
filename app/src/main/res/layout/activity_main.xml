@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/ic_time"
+    android:id="@+id/main_constraintLayout"
     tools:context=".MainActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

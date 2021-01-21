@@ -1,4 +1,4 @@
-package com.shop.base
+package com.sprout.base
 
 import android.os.Bundle
 import android.view.LayoutInflater

@@ -1,11 +1,12 @@
-package com.shop.base
+package com.sprout.base
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.shop.app.Constants
-import com.shop.net.repository.SystemRepository
-import com.shop.utils.MyMmkv
+import com.sprout.app.Constants
+import com.sprout.net.repository.SystemRepository
+import com.sprout.utils.MyMmkv
+
 import kotlinx.coroutines.launch
 
 open class BaseViewModel(val repository: SystemRepository):ViewModel() {

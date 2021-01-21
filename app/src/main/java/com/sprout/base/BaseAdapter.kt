@@ -1,4 +1,4 @@
-package com.shop.base
+package com.sprout.base
 
 import android.content.Context
 import android.util.SparseArray

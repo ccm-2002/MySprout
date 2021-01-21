@@ -1,4 +1,4 @@
-package com.shop.app
+package com.sprout.app
 
 class Constants {
 
